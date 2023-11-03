@@ -13,6 +13,7 @@ Jelenleg a megrendelőnek csak rendes (fizikai) boltja van, így sokkal kevésb�
 
 ## 4. Igényelt üzleti folyamatok modellje
 
+A vevők akár otthonról is kényelmesen tudnak válogatni a cipők között. A megrendelő pedig könnyebben tudja hirdetni termékeit, ráadásul a termékek nyilvántartása is egyszerűbbé válik.
 
 ## 5. Követelménylista
 
