@@ -1,5 +1,6 @@
 # Funkcionális specifikáció
 ## 1. Jelenlegi helyzet leírása
+Manapság már elképzelhetetlen egy új termék nagyobb tömegekhez való eljuttatása online felület nélkül. Sokan már szinte minden terméket webshopokból szereznek be. Weboldalunk is ezt a célt szolgálja, egy cipőmárka saját termékeit lehet a webshopban megvásárolni.
 
 ## 2. Vágyálomrendszer leírása
 
