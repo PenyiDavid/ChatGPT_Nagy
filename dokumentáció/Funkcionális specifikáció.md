@@ -9,7 +9,10 @@ A megrendelő olyan felületet szeretne, amivel könnyedén, otthonról is megv�
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
+Jelenleg a megrendelőnek csak rendes (fizikai) boltja van, így sokkal kevésbé hatékonyan jut el a termék új vevőkhöz. Illetve nagyobb cipőboltok webshopjaiban (Deichmann, CCC, stb...) találhatók meg a termékei, ami miatt pedig bevételtől esik el.
+
 ## 4. Igényelt üzleti folyamatok modellje
+
 
 ## 5. Követelménylista
 
