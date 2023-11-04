@@ -35,16 +35,23 @@ Megfelelő jogosultsággal új termékeket is lehet felvinni az oldalra.
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
-K1, K2, K3 - Regisztrációs felület, illetve bejelentkezés funkció elérése.
-K4, K5 - Ezen a felületen jelennek meg a megvásárolható termékek, illetve bejelentkezve itt lehet vásárolni.
-K5 - A bolt dolgozói ezen keresztül kezelik a termékeket.
-K6 - Saját adatok megjelenítése itt történik.
+K1, K2, K3: Belépőrendszer kezelése, felhasználó megjegyzése, regisztrálás, belépés
+K4, K5 K6- Ezen a felületen jelennek meg a megvásárolható termékek, illetve bejelentkezve itt lehet vásárolni. A bolt dolgozói ezen keresztül kezelik a termékeket.
+K7 - Saját adatok megjelenítése itt történik.
 
 ## 8. Képernyőtervek
 
 ## 9. Forgatókönyvek
 
 ## 10. Funkció - követelmény megfeleltetése
+
+ K1 - Remember me - Tick-box a belépési adatok tárolásának eldöntésére.
+ K2 - Login - A megadott felhasználónév és jelszó kombináció beléptetése a felületre.
+ K3 - Register - Új felhasználó hozzáadása a felület adatbázisához.
+ K4 - Products - A termékeket megjeleníti, belépett felhasználóknak vásárlási lehetőség.
+ K5 - Purchase - Bejelentkezett felhasználók rendelhetnek terméket.
+ K6 - Service - A megfelelő jogosultsággal rendelkező felhasználók új terméket vihetnek fel az adatbázisba.
+ K7 - Profile - A felhasználó megtekintheti a saját fiókjával kapcsolatos adatokat, korábbi rendelésket.
 
 ## 11 Fogalomszótár
 
