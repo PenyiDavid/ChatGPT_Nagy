@@ -29,7 +29,13 @@ A vevők akár otthonról is kényelmesen tudnak válogatni a cipők között. E
 
 ## 6. Használati esetek
 
+Az oldalra látogatva automatikusan megjelennek a webshopból rendelhető termékek. Menüből elérhető a bejelentkezés, illetve egy regisztrációs felület.
+Regisztrált felhasználóknak lehetősége van rendelni az oldalról, illetve a profiljukat, rendeléseiket megtekinteni.
+Megfelelő jogosultsággal új termékeket is lehet felvinni az oldalra.
+
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
+
+
 
 ## 8. Képernyőtervek
 
