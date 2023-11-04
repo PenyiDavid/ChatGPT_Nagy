@@ -47,17 +47,17 @@ Az oldalhoz nincs szükség különösebb telepítési és használati útmutat�
 
 ## 10. Funkció - követelmény megfeleltetése
 
- K1 - Remember me - Tick-box a belépési adatok tárolásának eldöntésére.
- K2 - Login - A megadott felhasználónév és jelszó kombináció beléptetése a felületre.
- K3 - Register - Új felhasználó hozzáadása a felület adatbázisához.
- K4 - Products - A termékeket megjeleníti, belépett felhasználóknak vásárlási lehetőség.
- K5 - Purchase - Bejelentkezett felhasználók rendelhetnek terméket.
- K6 - Service - A megfelelő jogosultsággal rendelkező felhasználók új terméket vihetnek fel az adatbázisba.
- K7 - Profile - A felhasználó megtekintheti a saját fiókjával kapcsolatos adatokat, korábbi rendelésket.
+ * K1 - Remember me - Tick-box a belépési adatok tárolásának eldöntésére.
+ * K2 - Login - A megadott felhasználónév és jelszó kombináció beléptetése a felületre.
+ * K3 - Register - Új felhasználó hozzáadása a felület adatbázisához.
+ * K4 - Products - A termékeket megjeleníti, belépett felhasználóknak vásárlási lehetőség.
+ * K5 - Purchase - Bejelentkezett felhasználók rendelhetnek terméket.
+ * K6 - Service - A megfelelő jogosultsággal rendelkező felhasználók új terméket vihetnek fel az adatbázisba.
+ * K7 - Profile - A felhasználó megtekintheti a saját fiókjával kapcsolatos adatokat, korábbi rendelésket.
 
 ## 11 Fogalomszótár
 
 | Fogalom | Leírás |
 | :---: | --- |
-|  |  |
-|  |  |
+| Reszponzív felület | Az alkalmazás kompatibilis más elektronikus eszközökön is, így lehet használni számítógépről, tabletről, laptopról és telefonról is, mert alkalmazkodik az eszköz kijelzőjéhez! |
+| UML | Unified Modeling Language |
