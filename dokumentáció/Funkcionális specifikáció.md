@@ -35,7 +35,10 @@ Megfelelő jogosultsággal új termékeket is lehet felvinni az oldalra.
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
-
+K1, K2, K3 - Regisztrációs felület, illetve bejelentkezés funkció elérése.
+K4, K5 - Ezen a felületen jelennek meg a megvásárolható termékek, illetve bejelentkezve itt lehet vásárolni.
+K5 - A bolt dolgozói ezen keresztül kezelik a termékeket.
+K6 - Saját adatok megjelenítése itt történik.
 
 ## 8. Képernyőtervek
 
