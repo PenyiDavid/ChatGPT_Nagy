@@ -112,13 +112,13 @@ A tesztelés célja, hogy a wboldal minden apróbb hibáját megtalálva, aztán
 
 ## 11. Telepítési terv
 
-Mivel egy webes felületről van szó, ezért nem szükséges semmit a számítógépre telepíteni, elegendő egy tetszőleges böngésző és internetkapcsolat.
-Az URL-t ismerve bárki begépelheti a böngésző keresőjébe és elérheti az oldalt.
+Az adott eszközre nem kell semmit telepíteni, mivel ez egy webes felület, ezáltal csak internetkapcsolatra, illetve egy böngészőre van szükség az oldal használatához.
+A weboldal URL-címét bemásolva a bömgészőbe használatba is vehetjük az oldalt és annak szolgáltatásait. 
 
 
 ## 12. Karbantartási terv
 
-Figyelembe kell venni a felhasználó által jött visszajelzést is a programmal kapcsolatban.
-Ha hibát talált, mielőbb orvosolni kell, lehet az:
-*	Működéssel kapcsolatos
-*	Kinézet, dizájnnal kapcsolatos
+A weboldal aktiválása után figyelembe kell venni a felhasználók által írt hibákat, illetve véleményeket a későbbi hibajavításokhoz, Ezek az észrevételek lehetnek lehetnek:
+
+   - Működéssel kapcsolatos 
+   - Design-nal kapcsoaltos 
