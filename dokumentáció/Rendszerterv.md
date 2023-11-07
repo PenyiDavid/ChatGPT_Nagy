@@ -62,6 +62,7 @@ Az általunk készített webes felületnek nincs külön támogatott eszközigé
 ### 5.2 Menühierarchiák
 
  - Belépett felhasználó
+
 	- megtekintetheti a termékeket
 	- termékeket adhat a kosarához
 	- kuponkódot válthat be
@@ -69,6 +70,7 @@ Az általunk készített webes felületnek nincs külön támogatott eszközigé
 	- gyűjthet vásárlói pontokat
 
  - Felhasználó
+
 	- megtekintheti a termékeket
 	- nem tud vásálói pontokat gyűjteni
 	- nem tud kuponkódot beváltani
