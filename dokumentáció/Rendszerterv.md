@@ -59,16 +59,33 @@ Az általunk készített webes felületnek nincs külön támogatott eszközigé
 
 ### 5.2 Menühierarchiák
 
+ - Belépett felhasználó
+	- megtekintetheti a termékeket
+	- termékeket adhat a kosarához
+	- kuponkódot válthat be
+	- vásárolhat/fizethet
+	- gyűjthet vásárlói pontokat
+
+ - Felhasználó
+	- megtekintheti a termékeket
+	- nem tud vásálói pontokat gyűjteni
+	- nem tud kuponkódot beváltani
+
 ## 6. Fizikai környezet
 
-- **Az alkalmazás csak web platformra készül, MySQL adatbázissal lesz futtatva.**
-  - **Nincsenek megvásárolt komponensek.**
-  - **Fejlesztői eszközök:**
-    - **Visual Studio Code**
-    - **XAMPP**
-    - **Laravel**
+- *Az alkalmazás csak web platformra készül, MySQL adatbázissal lesz futtatva.*
+  - *Nincsenek megvásárolt komponensek.*
+  - *Fejlesztői eszközök:*
+    - *Visual Studio Code*
+    - *Laravel*
+    - *XAMPP*
+    
 
 ## 7. Architekturális terv
+
+A rendszer zavartalan működéséhez szükség van egy adatbázisszerverre, amelyhez ebben az esetben MySQL-t használunk.
+A reszponzív webdesignért a bootstrap felel majd.
+A backendhez pedig a laravel keretrendszer lesz majd a segítségünkre.
 
 ## 8. Adatbázis terv
 
