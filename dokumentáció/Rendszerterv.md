@@ -1,12 +1,14 @@
 # Rendszerterv
 ## 1. A rendszer célja
 
+A ChatGPT csapat egy olyan webshopot tervez, amely átlátható, könnyen használható és egyszerű megoldást nyújt a vásárlás lebonyolításához. A weboldal feladatai közé tartozik a termékek megjelenítése képpel, a kosár tartalmának eltárolása, illetve elemeinek törlése, ha szükséges és a fizetés megvalósítása is. A weboldalhoz tartozik egy account rendszer és adatbázisok, amelyek az adott termékeket illetve felhasználókat tárolják. Fontos még az is, hogy legyen egy suppport rész, ahol a vásárlók segítséget tudnak kérni, esetleges hibás rendelések vagy rosszul megadott adatok esetében. Fontos, hogy a weboldal dinamikus legyen, hogy akár PC-ről, akár mobilról is lehessen használni.
+
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
-   * Scrum masters: 
-   * Product owner: 
-   * Üzleti szereplő: Tajti Tibor
+   * Scrum masters: Szegedi Tamás
+   * Product owner: Szegedi Ta,ás
+   * Üzleti szereplő: Mihály Balázs
 
 ### 2.2 Projektmunkások és felelőségek:
    * Frontend: Kelemen András, Soós János, Penyaskó Dávid
@@ -17,42 +19,43 @@
 
 |Funkció                  | Feladat                                | Prioritás | Becslés (nap) | Aktuális becslés (nap) | Eltelt idő (nap) | Becsült idő (nap) |
 |-------------------------|----------------------------------------|-----------|---------------|------------------------|------------------|---------------------|
-|Követelmény specifikáció |Megírás                                 |         1 |             2 |                      2 |                2 |                   2 |       |Funkcionális specifikáció|Megírás                                 |         1 |             2 |                      2 |                2 |                   2 |
-|Rendszerterv             |Megírás                                 |         1 |             2 |                      2 |                2 |                   2 |
-|Program                  |Képernyőtervek elkészítése              |         2 |             2 |                      2 |                2 |                   2 | 
-|Program                  |Prototípus elkészítése                  |         3 |             17 |                      17 |                17 |                   17 |
-|Program                  |Alapfunkciók elkészítése                |         3 |             17 |                      17 |                17 |                   17 |
-|Program                  |Tesztelés                               |         4 |             5 |                      5 |                5 |                   5 |
+|Követelmény specifikáció |Megírás                                 |         1 |             3 |                      3 |                3 |                   3 |       
+|Funkcionális specifikáció|Megírás                                 |         1 |             3 |                      3 |                3 |                   3 |
+|Rendszerterv             |Megírás                                 |         1 |             3 |                      3 |                3 |                   3 |
+|Program                  |Képernyőtervek elkészítése              |         2 |             3 |                      3 |                3 |                   3 | 
+|Program                  |Prototípus elkészítése                  |         3 |            12 |                     12 |               12 |                  13 |
+|Program                  |Alapfunkciók elkészítése                |         3 |            12 |                     12 |               12 |                  13 |
+|Program                  |Tesztelés                               |         4 |             4 |                      4 |                4 |                   4 |
 
 ### 2.4 Mérföldkövek:
 
+11.07 - Dokumentációk elkészítve - Minden dokumentáció kész.
 
 ## 3. Üzleti folyamatok modellje
 
 
 
+
 ## 4. Követelmények
 
-| Id | Modul | Név | Leírás |
-| :---: | --- | --- | --- |
-| K1 | Felület |  |  |
-| K2 | Felület |  |  |
-| K3 | Felület |  |  |
-| K4 | Felület |  |  |
-| K5 | Felület |  |  |
-| K6 | Felület |  |  |
-| K7 | Felület |  |  |
-| K8 | Felület |  |  |
-| K9 | Felület |  |  |
-| K10 | Felület |  |  |
+Funkcionális követelmények
+
+- Aktuális termékek megjelenítése.
+- Fotók megjelenítése a termékről.
+- Termékek elérhetőségének megjelenítése.
+- Termékek árának megjelenítése.
+- Termékek megrendelése.
 
 ### Támogatott eszközök
 
-Mivel egy webes felületet készítünk, ezért elegendő egy számítógép vagy bármilyen okos eszköz amin van internetkapcsolat.
+Az általunk készített webes felületnek nincs külön támogatott eszközigénye, mivel bármilyen eszközön elérhető, ami rendelkezik internethozzáféréssel.
 
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
+
+ - bejelentkezett felhasználó (Aki az oldalra bejelentkezve vásárol)
+ - vendég felhasználó (Aki bejelentkezés nélkül nézi az oldalt)
 
 ### 5.2 Menühierarchiák
 
