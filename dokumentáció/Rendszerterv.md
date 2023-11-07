@@ -91,6 +91,16 @@ A backendhez pedig a laravel keretrendszer lesz majd a segítségünkre.
 
 ### *Tábla*
 
+- Regisztrált felhasználók:
+   -id: a felhasználó egyedi azonosítója
+   -name: a felhasználó neve
+   -email: a felhasználó email-címe
+   -password: a felhasználó jelszava
+
+- Termékek
+   -id: a termék egyedi azonosítója
+   -price: a termék ára
+   -stock: hány darab vana termékből raktáron
 
 ## 9. Implementációs terv
 
@@ -98,7 +108,7 @@ A webes felület HTML, CSS és PHP nyelven fog elkészülni, Laravel keretrendsz
 
 ## 10. Tesztterv
 
-A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mezőinek, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, külön file-ba dokumentálni fogja.
+A tesztelés célja, hogy a wboldal minden apróbb hibáját megtalálva, aztán kijavítva az oldal hibátlan működését biztosítsuk. A tesztelést a csapat midnen tagja megadott számban fogja végezni, a tesztelést mindenki saját file-ban fogja vezetni. 
 
 ## 11. Telepítési terv
 
