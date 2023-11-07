@@ -29,7 +29,9 @@ A ChatGPT csapat egy olyan webshopot tervez, amely átlátható, könnyen haszn�
 
 ### 2.4 Mérföldkövek:
 
-11.07 - Dokumentációk elkészítve - Minden dokumentáció kész.
+11.07 - Dokumentációk elkészítve - Rendszerterv
+11.07 - Dokumentációk elkészítve - Funkcionális specifikáció
+11.07 - Dokumentációk elkészítve - Követelmény specifikáció
 
 ## 3. Üzleti folyamatok modellje
 
