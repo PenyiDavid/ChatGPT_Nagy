@@ -1,13 +1,13 @@
 # Rendszerterv
 ## 1. A rendszer célja
 
-A ChatGPT csapat egy olyan webshopot tervez, amely átlátható, könnyen használható és egyszerű megoldást nyújt a vásárlás lebonyolításához. A weboldal feladatai közé tartozik a termékek megjelenítése képpel, a kosár tartalmának eltárolása, illetve elemeinek törlése, ha szükséges és a fizetés megvalósítása is. A weboldalhoz tartozik egy account rendszer és adatbázisok, amelyek az adott termékeket illetve felhasználókat tárolják. Fontos még az is, hogy legyen egy suppport rész, ahol a vásárlók segítséget tudnak kérni, esetleges hibás rendelések vagy rosszul megadott adatok esetében. Fontos, hogy a weboldal dinamikus legyen, hogy akár PC-ről, akár mobilról is lehessen használni.
+A ChatGPT csapat egy olyan webshopot tervez, amely átlátható, könnyen használható és egyszerű megoldást nyújt a vásárlás lebonyolításához. A weboldal feladatai közé tartozik a termékek megjelenítése képpel, a kosár tartalmának eltárolása, illetve elemeinek törlése, ha szükséges és a fizetés megvalósítása is. A weboldalhoz tartozik egy account rendszer és adatbázisok, amelyek az adott termékeket illetve felhasználókat tárolják. Fontos még az is, hogy legyen egy support rész, ahol a vásárlók segítséget tudnak kérni, esetleges hibás rendelések vagy rosszul megadott adatok esetében. Fontos, hogy a weboldal dinamikus legyen, hogy akár PC-ről, akár mobilról is lehessen használni.
 
 ## 2. Projektterv
 
-### 2.1 Projektszerepkörök, felelőségek:
+### 2.1 Projektszerepkörök, felelősségek:
    * Scrum masters: Szegedi Tamás
-   * Product owner: Szegedi Ta,ás
+   * Product owner: Szegedi Tamás
    * Üzleti szereplő: Mihály Balázs
 
 ### 2.2 Projektmunkások és felelőségek:
@@ -23,15 +23,17 @@ A ChatGPT csapat egy olyan webshopot tervez, amely átlátható, könnyen haszn�
 |Funkcionális specifikáció|Megírás                                 |         1 |             3 |                      3 |                3 |                   3 |
 |Rendszerterv             |Megírás                                 |         1 |             3 |                      3 |                3 |                   3 |
 |Program                  |Képernyőtervek elkészítése              |         2 |             3 |                      3 |                3 |                   3 | 
-|Program                  |Prototípus elkészítése                  |         3 |            12 |                     12 |               12 |                  13 |
-|Program                  |Alapfunkciók elkészítése                |         3 |            12 |                     12 |               12 |                  13 |
+|Program                  |Frontend elkészítése                    |         3 |            12 |                     12 |               12 |                  13 |
+|Program                  |Backend elkészítése                     |         3 |            12 |                     12 |               12 |                  13 |
+|Program                  |Alapfunkciók elkészítése                |         3 |             6 |                      6 |                6 |                   8 |
+|Program                  |Meglévő program javítása                |         3 |             4 |                      4 |                4 |                   5 |
 |Program                  |Tesztelés                               |         4 |             4 |                      4 |                4 |                   4 |
 
 ### 2.4 Mérföldkövek:
 
- 11.07 - Dokumentációk elkészítve - Rendszerterv
- 11.07 - Dokumentációk elkészítve - Funkcionális specifikáció
- 11.07 - Dokumentációk elkészítve - Követelmény specifikáció
+ - 11.07 - Dokumentációk elkészítve - Rendszerterv
+ - 11.07 - Dokumentációk elkészítve - Funkcionális specifikáció
+ - 11.07 - Dokumentációk elkészítve - Követelmény specifikáció
 
 ## 3. Üzleti folyamatok modellje
 
