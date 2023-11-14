@@ -27,4 +27,8 @@ A vevők akár otthonról is kényelmesen tudnak válogatni a cipők között. E
 | K7 | Felület | Profile | A felhasználó megtekintheti a saját fiókjával kapcsolatos adatokat, korábbi rendelésket |
 
 ## 7. Fogalomtár
+| Fogalom | Leírás |
+| :---: | --- |
+| Reszponzív felület | Az alkalmazás kompatibilis más elektronikus eszközökön is, így lehet használni számítógépről, tabletről, laptopról és telefonról is, mert alkalmazkodik az eszköz kijelzőjéhez! |
+| UML | Unified Modeling Language |
 
