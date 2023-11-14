@@ -16,6 +16,15 @@ Jelenleg a megrendelőnek csak rendes (fizikai) boltja van, így sokkal kevésb�
 A vevők akár otthonról is kényelmesen tudnak válogatni a cipők között. Ezen felül nyomonkövethetik folyamatban lévő, vagy teljesült rendeléseiket is. A megrendelő pedig könnyebben tudja hirdetni termékeit, ráadásul a termékek nyilvántartása is egyszerűbbé válik.
 
 ## 6. Követelménylista
+| Id | Modul | Név | Leírás |
+| :---: | --- | --- | --- |
+| K1 | Felület | Remember me | Tick-box a belépési adatok tárolásának eldöntésére |
+| K2 | Felület | Login | A megadott felhasználónév és jelszó kombináció beléptetése a felületre |
+| K3 | Felület | Register | Új felhasználó hozzáadása a felület adatbázisához |
+| K4 | Felület | Products | A termékeket megjeleníti, belépett felhasználóknak vásárlási lehetőség |
+| K5 | Felület | Purchase | Bejelentkezett felhasználók rendelhetnek terméket |
+| K6 | Felület | Service | A megfelelő jogosultsággal rendelkező felhasználók új terméket vihetnek fel az adatbázisba |
+| K7 | Felület | Profile | A felhasználó megtekintheti a saját fiókjával kapcsolatos adatokat, korábbi rendelésket |
 
 ## 7. Fogalomtár
 
