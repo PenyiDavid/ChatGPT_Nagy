@@ -13,6 +13,7 @@ A megrendelő olyan felületet szeretne, amivel könnyedén, otthonról is megv�
 Jelenleg a megrendelőnek csak rendes (fizikai) boltja van, így sokkal kevésbé hatékonyan jut el a termék új vevőkhöz. Illetve nagyobb cipőboltok webshopjaiban (Deichmann, CCC, stb...) találhatók meg a termékei, ami miatt pedig bevételtől esik el.
 
 ## 5. Igényelt üzleti folyamatok modellje
+A vevők akár otthonról is kényelmesen tudnak válogatni a cipők között. Ezen felül nyomonkövethetik folyamatban lévő, vagy teljesült rendeléseiket is. A megrendelő pedig könnyebben tudja hirdetni termékeit, ráadásul a termékek nyilvántartása is egyszerűbbé válik.
 
 ## 6. Követelménylista
 
