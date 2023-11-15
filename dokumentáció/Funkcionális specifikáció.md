@@ -42,6 +42,7 @@ K7 - Saját adatok megjelenítése itt történik.
 ## 8. Képernyőtervek
 ![Bejelentkezés](../dokumentáció/képernyőterv/Bejelentkezés.png)
 ![Regisztráció](../dokumentáció/képernyőterv/Regisztráció.png)
+![Kezdőlap](../dokumentáció/képernyőterv/kezdőlap.png)
 
 ## 9. Forgatókönyvek
 
