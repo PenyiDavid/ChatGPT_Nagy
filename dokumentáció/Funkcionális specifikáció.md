@@ -40,7 +40,7 @@ K4, K5 K6- Ezen a felületen jelennek meg a megvásárolható termékek, illetve
 K7 - Saját adatok megjelenítése itt történik.
 
 ## 8. Képernyőtervek
-![Bejelentkezés](../képernyőterv/Bejelentkezés.png)
+![Bejelentkezés](./képernyőterv/Bejelentkezés.png)
 ## 9. Forgatókönyvek
 
 Az oldalhoz nincs szükség különösebb telepítési és használati útmutatóra. Elég, ha egy grafikus felülettel rendelkező webböngésző fel van telepítve ( alapértelmezett: windows - internet explorer / edge, linux: mozilla, mac - safari ). A felhasználó beüti az oldal címét: xyz.com a böngésző címsorába és rögtön át lesz irányítva az oldalra. Az oldal tartalmát a webszerver szolgáltatja a mögötte lévő adatbázis segítségével. Az oldalra átírányítva a felhasználó megkezdheti a használatát. Ha a felhasználónak bármi nemű problémája akad az oldal működésével kapcsolatban, akkor a megadott elérhetőségek alapján tudja ezt jelezni az oldal karbantartói felé. Az oldal adminisztrátorai moderálják az oldalt a megfelelő eszközök segítségével. Az oldal karbantartásáért felelős csapat pedig az oldal rendeltetésének megfelelő működését ellenőrzi és javítja a felmerülő problémákat.
