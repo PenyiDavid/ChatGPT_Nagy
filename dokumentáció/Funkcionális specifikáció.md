@@ -43,6 +43,7 @@ K7 - Saját adatok megjelenítése itt történik.
 ![Bejelentkezés](../dokumentáció/képernyőterv/Bejelentkezés.png)
 ![Regisztráció](../dokumentáció/képernyőterv/Regisztráció.png)
 ![Kezdőlap](../dokumentáció/képernyőterv/kezdőlap.png)
+![Profil](../dokumentáció/képernyőterv/profil.png)
 
 ## 9. Forgatókönyvek
 
