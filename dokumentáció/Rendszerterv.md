@@ -37,7 +37,7 @@ A ChatGPT csapat egy olyan webshopot tervez, amely átlátható, könnyen haszn�
 
 ## 3. Üzleti folyamatok modellje
 
-
+![Üzleti folyamatok](../docs/Képek/Üzleti folyamatok modellje.png)
 
 
 ## 4. Követelmények
