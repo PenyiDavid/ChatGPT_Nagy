@@ -45,6 +45,7 @@ K7 - Saját adatok megjelenítése itt történik.
 ![Kezdőlap](../dokumentáció/képernyőterv/kezdőlap.png)
 ![Profil](../dokumentáció/képernyőterv/profil.png)
 ![AlkalmazottakFelülete](../dokumentáció/képernyőterv/alkalmazottakfelülete1.png)
+![BejelentkezettKezdőlap](../dokumentáció/képernyőterv/bejelentkezettkezdőlap.png)
 
 ## 9. Forgatókönyvek
 
