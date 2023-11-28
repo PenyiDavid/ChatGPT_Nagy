@@ -13,6 +13,7 @@ return new class extends Migration {
         Schema::create('termekek', function (Blueprint $table) {
             $table->id();
             $table->string('termek_neve');
+            $table->string('eleres');
             $table->int('ar');
             $table->string('Meret');
             $table->int('darabszam');
