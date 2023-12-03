@@ -13,13 +13,8 @@ return new class extends Migration {
         Schema::create('termekek', function (Blueprint $table) {
             $table->id();
             $table->string('termek_neve');
-<<<<<<< HEAD
-            $table->string('eleres');
-            $table->int('ar');
-=======
             $table->integer('ar');
->>>>>>> 36e967d4f8519657c232d0a79e702a727a8f170f
-            $table->string('Meret');
+            $table->string('meret');
             $table->integer('darabszam');
             $table->timestamps();
         });
