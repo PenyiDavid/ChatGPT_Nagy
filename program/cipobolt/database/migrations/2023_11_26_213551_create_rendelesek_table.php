@@ -11,12 +11,15 @@ return new class extends Migration {
     public function up(): void
     {
         Schema::create('rendelesek', function (Blueprint $table) {
+            //$table->engine = 'InnoDB';
             $table->id();
+            //$table->integer("user_id")->unsigned();
             $table->foreign("user_id")->references("id")->on("users")->onDelete("cascade");
-            $table->foreign("termek_id")->references("id")->on("termekek")->onDelete("cascade");
-            $table->string("szallitasi_cim");
-            $table->timestamps("vasarlas_datuma");
+            //$table->index('termek_id'); //->unsigned()->unique();
+            $table->foreign('termek_id')->references('id')->on('termekek')->onDelete('cascade');
+            $table->string('szallitasi_cim');
             $table->timestamps();
+            //$table->timestamps();
         });
     }
 

@@ -13,9 +13,9 @@ return new class extends Migration {
         Schema::create('termekek', function (Blueprint $table) {
             $table->id();
             $table->string('termek_neve');
-            $table->int('ar');
+            $table->integer('ar');
             $table->string('Meret');
-            $table->int('darabszam');
+            $table->integer('darabszam');
             $table->timestamps();
         });
     }
