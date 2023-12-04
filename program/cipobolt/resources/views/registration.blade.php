@@ -2,10 +2,29 @@
 @section('title', 'Registration')
 @section('content')
 <div class="container"> 
-    <form class="me-auto ms-auto mt-3" style="width: 500px">
-  <div class="mb-3">
+    <div class="mt-5">
+      @if($errors -> any())
+        <div class="col-12">
+            @foreach($errors->all() as $error)
+              <div class="alert alert-danger">{{$error}}</div>
+            @endforeach
+        </div>
+      @endif
+
+      @if(session()->has('error'))
+        <div class="alert alert-danger">{{session('error')}}</div>
+      @endif
+
+      @if(session()->has('success'))
+        <div class="alert alert-success">{{session('success')}}</div>
+      @endif
+
+    </div>
+    <form action="{{route('registration.post')}}" method="POST" class="me-auto ms-auto mt-3" style="width: 500px">
+    @csrf
+    <div class="mb-3">
     <label  class="form-label">Full name</label>
-    <input type="name" class="form-control" name="name">
+    <input type="text" class="form-control" name="name">
     
   </div>
   <div class="mb-3">
