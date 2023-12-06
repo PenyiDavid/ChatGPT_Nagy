@@ -9,7 +9,8 @@ Operációs rendszer: Windows 11
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2023.11.xx. | ... | ... | ... |
+| Regisztráció | 2023.12.06. | User adatait a táblában eltárolja | Működik | - |
+| Belépés | 2023.12.06. | Usernévvel és megfelelő jelszóval belépünk az oldalra | Működik | - |
 
 Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenféle fennakadások nélkül.
 Az Alfa tesztelés során a vizsgált elemek között volt ami nem megfelelően működött, ez a későbbiek során javításra szorul.
