@@ -23,7 +23,7 @@ return new class extends Migration {
                 table: 'users', indexName: 'rendelesek_user_id'
             )->onDelete('cascade');
             $table->foreignId('termek_id')->constrained(
-                table: 'termekek', indexName: 'rendelesek_termek_id'
+                table: 'uj_termeks', indexName: 'rendelesek_termek_id'
             )->onDelete('cascade');
             $table->string('szallitasi_cim');
             $table->timestamps();

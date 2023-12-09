@@ -28,7 +28,7 @@
                 </div>
                 @if(Auth::user()->admin)
                     <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                        <x-nav-link :href="route('ujtermek')" :active="request()->routeIs('ujtermek')">
+                        <x-nav-link :href="route('ujtermek.index')" :active="request()->routeIs('ujtermek.index')">
                             {{ __('Új termék') }}
                         </x-nav-link>
                     </div>

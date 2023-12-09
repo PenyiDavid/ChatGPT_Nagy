@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UjTermekController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,12 +29,13 @@ Route::get('/kosar', function () {
     return view('kosar');
 })->middleware(['auth', 'verified'])->name('kosar');
 
-Route::get('/ujtermek', function () {
-    return view('ujtermek');
-})->middleware(['auth', 'verified'])->name('ujtermek');
+Route::get('/ujtermek', [UjTermekController::class, 'index'])->name('ujtermek.index');
+Route::post('/ujtermek', [UjTermekController::class, 'store'])->name('ujtermek.store');
+
 Route::get('/mindenrendeles', function () {
     return view('mindenrendeles');
 })->middleware(['auth', 'verified'])->name('mindenrendeles');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

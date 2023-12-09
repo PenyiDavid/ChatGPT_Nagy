@@ -10,12 +10,13 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create('termekek', function (Blueprint $table) {
+        Schema::create('uj_termeks', function (Blueprint $table) {
             $table->id();
             $table->string('termek_neve');
             $table->integer('ar');
-            $table->string('meret');
             $table->integer('darabszam');
+            $table->integer('meret');
+            $table->string('eleresi_ut');
             $table->timestamps();
         });
     }
@@ -25,6 +26,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('termekek');
+        Schema::dropIfExists('uj_termeks');
     }
 };
