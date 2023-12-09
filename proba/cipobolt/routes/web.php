@@ -4,8 +4,9 @@ use App\Models\Rendeles;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TermekController;
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\RendeleseimController;
 use App\Http\Controllers\UjTermekController;
+use App\Http\Controllers\RendelesekController;
+use App\Http\Controllers\RendeleseimController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,9 +26,6 @@ Route::get('/', function () {
 Route::get('/kosar', function () {
     return view('kosar');
 })->middleware(['auth', 'verified'])->name('kosar');
-Route::get('/rendelesek', function () {
-    return view('rendelesek');
-})->middleware(['auth', 'verified'])->name('rendelesek');
 
 Route::get('/ujtermek', [UjTermekController::class, 'index'])->middleware(['auth', 'verified'])->name('ujtermek.index');
 Route::post('/ujtermek', [UjTermekController::class, 'store'])->middleware(['auth', 'verified'])->name('ujtermek.store');
@@ -35,6 +33,7 @@ Route::post('/ujtermek', [UjTermekController::class, 'store'])->middleware(['aut
 Route::get('termekek', [TermekController::class,'index'])->middleware(['auth', 'verified'])->name('termekek.index');
 
 Route::get('rendeleseim', [RendeleseimController::class,'index'])->middleware(['auth', 'verified'])->name('rendeleseim.index');
+Route::get('rendelesek', [RendelesekController::class,'index'])->middleware(['auth', 'verified'])->name('rendelesek.index');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
