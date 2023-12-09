@@ -13,9 +13,32 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('Termékek') }}
                     </x-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('kosar')" :active="request()->routeIs('kosar')">
+                        {{ __('Kosár') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('rendeleseim')" :active="request()->routeIs('rendeleseim')">
+                        {{ __('Rendeléseim') }}
+                    </x-nav-link>
+                </div>
+                @if(Auth::user()->admin)
+                    <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                        <x-nav-link :href="route('ujtermek')" :active="request()->routeIs('ujtermek')">
+                            {{ __('Új termék') }}
+                        </x-nav-link>
+                    </div>
+                    <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                        <x-nav-link :href="route('mindenrendeles')" :active="request()->routeIs('mindenrendeles')">
+                            {{ __('Rendelések') }}
+                        </x-nav-link>
+                    </div>
+                @endif
+                
             </div>
 
             <!-- Settings Dropdown -->

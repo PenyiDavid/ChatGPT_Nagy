@@ -21,6 +21,19 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/rendeleseim', function () {
+    return view('rendeleseim');
+})->middleware(['auth', 'verified'])->name('rendeleseim');
+Route::get('/kosar', function () {
+    return view('kosar');
+})->middleware(['auth', 'verified'])->name('kosar');
+
+Route::get('/ujtermek', function () {
+    return view('ujtermek');
+})->middleware(['auth', 'verified'])->name('ujtermek');
+Route::get('/mindenrendeles', function () {
+    return view('mindenrendeles');
+})->middleware(['auth', 'verified'])->name('mindenrendeles');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
