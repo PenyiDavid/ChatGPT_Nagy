@@ -42,4 +42,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+    public function rendelesek()
+    {
+        return $this->hasMany(Rendeles::class, 'user_id');
+    }
 }

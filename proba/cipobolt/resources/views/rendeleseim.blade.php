@@ -11,6 +11,17 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     {{ __("Korábban rendelt termékei:") }}
                 </div>
+                <div>
+                    @forelse($rendeleseim as $rendeles)
+                        <li><p>{{ $rendeles->id}}</p>
+                            <p>{{ $rendeles->termek_id }}</p>
+                            <p>{{ $rendeles->szallitasi_cim}}</p>
+                        <p>------------------------------------</p>
+                        </li>
+                    @empty
+                    <p>Nincs korábbi rendelése.</p>
+                    @endforelse
+                </div>
             </div>
         </div>
     </div>

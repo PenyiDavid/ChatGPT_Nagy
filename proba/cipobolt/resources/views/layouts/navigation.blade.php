@@ -22,7 +22,7 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('rendeleseim')" :active="request()->routeIs('rendeleseim')">
+                    <x-nav-link :href="route('rendeleseim.index')" :active="request()->routeIs('rendeleseim.index')">
                         {{ __('Rendeléseim') }}
                     </x-nav-link>
                 </div>
@@ -33,7 +33,7 @@
                         </x-nav-link>
                     </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                        <x-nav-link :href="route('mindenrendeles')" :active="request()->routeIs('mindenrendeles')">
+                        <x-nav-link :href="route('rendelesek')" :active="request()->routeIs('rendelesek')">
                             {{ __('Rendelések') }}
                         </x-nav-link>
                     </div>
