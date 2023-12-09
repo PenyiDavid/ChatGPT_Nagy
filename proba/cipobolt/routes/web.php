@@ -1,8 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TermekController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UjTermekController;
-use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,9 +20,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+
 Route::get('/rendeleseim', function () {
     return view('rendeleseim');
 })->middleware(['auth', 'verified'])->name('rendeleseim');
@@ -31,6 +30,8 @@ Route::get('/kosar', function () {
 
 Route::get('/ujtermek', [UjTermekController::class, 'index'])->name('ujtermek.index');
 Route::post('/ujtermek', [UjTermekController::class, 'store'])->name('ujtermek.store');
+
+Route::get('termekek', [TermekController::class,'index'])->name('termekek.index');
 
 Route::get('/mindenrendeles', function () {
     return view('mindenrendeles');

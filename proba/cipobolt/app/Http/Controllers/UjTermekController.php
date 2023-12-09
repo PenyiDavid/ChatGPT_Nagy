@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\UjTermek;
+use App\Models\Termek;
 use Illuminate\Http\Request;
 
 class UjTermekController extends Controller
@@ -21,7 +21,7 @@ class UjTermekController extends Controller
             'darabszam' => 'required|integer',
             'eleresi_ut' => 'required|string|required|max:255'
         ]);
-        $ujTermek = new UjTermek();
+        $ujTermek = new Termek();
         $ujTermek->termek_neve = $request->input('termek_neve');
         $ujTermek->ar = $request->input('ar');
         $ujTermek->meret = $request->input('meret');
