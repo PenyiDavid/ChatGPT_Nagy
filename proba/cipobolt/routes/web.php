@@ -41,4 +41,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::get('/termek', [TermekController::class, 'index']);
+Route::get('/termek/filter', [TermekController::class, 'filterProducts'])->name('filterProducts');
 require __DIR__.'/auth.php';
