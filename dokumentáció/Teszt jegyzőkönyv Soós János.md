@@ -9,7 +9,10 @@ Operációs rendszer: Windows 10
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2023.11.xx. | ... | ... | ... |
+| Regisztráció | 2023.12.11. | User adatai eltárolása az adatbázisban | Működik | - |
+| Belépés | 2023.12.11. | A megefelelő adatokkal be lehet lépni az oldalra | Működik | - |
+| Termékek feltöltése | 2023.12.11. | Az admin jogosultsággal rendelkező felhasználó termékeket tud feltölteni az oldal adatbázisába | Működik | - |
+| Termékszűrő | 2023.12.11. | Termékek keresése szűrő alapján (méret, ár), a szűrőket el lehet távolítani | Működik | - |
 
 Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenféle fennakadások nélkül.
 Az Alfa tesztelés során a vizsgált elemek között volt ami nem megfelelően működött, ez a későbbiek során javításra szorul.
