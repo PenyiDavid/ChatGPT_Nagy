@@ -1,0 +1,11 @@
+button.filter-button {
+    background-color: #2b2929; /* Szürke háttérszín */
+    color: #ffffff; /* Fehér szövegszín */
+    border-radius: 8px; /* Lekerekített sarkok */
+    padding: 10px 20px; /* Belső tér a gomb körül */
+    cursor: pointer; /* Mutató ujj ikon a kattintható elemekhez */
+}
+.center-horizontally {
+    display: flex;
+    justify-content: center;
+}

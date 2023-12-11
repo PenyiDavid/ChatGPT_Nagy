@@ -12,7 +12,7 @@ class TermekController extends Controller
 
         return view("termekek", ['termekek' => $termekek]);
     }
-
+    
     public function filterProducts(Request $request)
     {
         $meret = $request->input('meret');
@@ -36,5 +36,10 @@ class TermekController extends Controller
         $termekek = $query->get();
 
         return view('termekek', ['termekek' => $termekek]);
+    }
+    public function clearFilters()
+    {
+        // Töröld az összes szűrőt, például szétszedve az URL paramétereit
+        return redirect()->route('termekek.index'); // Vagy ahova vissza akarod irányítani
     }
 }

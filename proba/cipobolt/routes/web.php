@@ -43,4 +43,7 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/termek', [TermekController::class, 'index']);
 Route::get('/termek/filter', [TermekController::class, 'filterProducts'])->name('filterProducts');
+Route::get('/termek/clear-filters', [TermekController::class, 'clearFilters'])->name('termek.clearFilters');
+
+
 require __DIR__.'/auth.php';
