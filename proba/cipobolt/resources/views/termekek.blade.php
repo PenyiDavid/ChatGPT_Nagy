@@ -23,6 +23,12 @@
         <option value="44">44</option>
         <option value="45">45</option>
     </select>
+    
+    <label for="min_ar">Min. ár:</label>
+    <input type="number" name="min_ar" id="min_ar">
+
+    <label for="max_ar">Max. ár:</label>
+    <input type="number" name="max_ar" id="max_ar">
     <button type="submit">Szűrés</button>
 </form>
         <div class="py-12"> 
