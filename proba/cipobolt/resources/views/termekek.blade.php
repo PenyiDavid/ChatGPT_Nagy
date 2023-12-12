@@ -34,28 +34,42 @@
                 <button type="button" onclick="location.href='{{ route('termek.clearFilters') }}'" class="filter-button">Szűrők törlése</button>
             </form>
         </div>
-        <div class="py-12"> 
-            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">   
-                    <div class="p-6 text-gray-900 dark:text-gray-100">
-                        <p>{{ __("Válasszon az alábbi termékek közül:") }}</p>           
-                    </div>
-                    <div>
-                        <ul>
-                            @foreach($termekek as $termek)
-                                <li><a href="{{ $termek->id}}.php"><p>{{ $termek->termek_neve }}</p>
-                                    <p><img src="{{ $termek->eleresi_ut}}.jpg" alt="Kép" width="200"></p></a>
-                                    <p>{{ $termek->ar}}Ft</p>
-                                    <p>{{ $termek->meret }}-os méret</p>
-                                    <p>{{ $termek->darabszam}}db raktáron</p>
-                                    <p>------------------------------------</p>
+        <<div class="py-12"> 
+    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+        <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">   
+            <div class="p-6 text-gray-900 dark:text-gray-100">
+                <p>{{ __("Válasszon az alábbi termékek közül:") }}</p>           
+            </div>
+            <div>
+                <ul>
+                    @foreach($termekek->chunk(5 ) as $chunk)
+                        <div class="flex justify-content-center align-items-center">
+                            @foreach($chunk as $termek)
+                                <li class="mr-4">
+                                    <a href="{{ $termek->id}}.php">
+                                        <p>{{ $termek->termek_neve }}</p>
+                                        <p><img src="{{ $termek->eleresi_ut}}.jpg" alt="Kép" width="200"></p>
+                                        <p>{{ $termek->ar}}Ft</p>
+                                        <p>{{ $termek->meret }}-os méret</p>
+                                        <p>{{ $termek->darabszam}}db raktáron</p>
+                                        @if(Auth::check() && Auth::user()->admin)
+                                        <form action="{{ route('termek.torles', $termek->id) }}" method="post">
+                                            @csrf
+                                            @method('delete')
+                                            <button type="submit" class="filter-button">Törlés</button>
+                                        </form>
+                                        @endif
+                                        <p>------------------------------------</p>
+                                    </a>
                                 </li>
                             @endforeach
-                        </ul>
-                    </div>   
-                </div>
-            </div>
+                        </div>
+                    @endforeach
+                </ul>
+            </div>   
         </div>
+    </div>
+</div>
 </x-app-layout>
 
 @section('content')

@@ -13,6 +13,13 @@ class TermekController extends Controller
         return view("termekek", ['termekek' => $termekek]);
     }
     
+    public function torles($termekId)
+    {
+    Termek::find($termekId)->delete();
+
+    return redirect()->back()->with('success', 'A termék törölve!');
+    }
+
     public function filterProducts(Request $request)
     {
         $meret = $request->input('meret');

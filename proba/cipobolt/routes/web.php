@@ -7,6 +7,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UjTermekController;
 use App\Http\Controllers\RendelesekController;
 use App\Http\Controllers\RendeleseimController;
+use App\Http\Controllers\TermekTorleseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,5 +46,7 @@ Route::get('/termek', [TermekController::class, 'index']);
 Route::get('/termek/filter', [TermekController::class, 'filterProducts'])->name('filterProducts');
 Route::get('/termek/clear-filters', [TermekController::class, 'clearFilters'])->name('termek.clearFilters');
 
+Route::get('/termektorles', [TermekTorleseController::class, 'index'])->name('termektorles.index');
+Route::delete('/termek/torles/{termekId}', [TermekController    ::class, 'torles'])->name('termek.torles');
 
 require __DIR__.'/auth.php';
