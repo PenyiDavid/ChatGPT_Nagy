@@ -11,6 +11,8 @@ Operációs rendszer: Windows 11
 | :---: | --- | --- | --- | --- |
 | Regisztráció | 2023.12.06. | User adatait a táblában eltárolja | Működik | - |
 | Belépés | 2023.12.06. | Usernévvel és megfelelő jelszóval belépünk az oldalra | Működik | - |
+| Profil | 2023.12.09. | Bejelentkezett felhasználó a saját adatait meg tudja tekinteni, szerkeszteni | Működik | - |
+| Adatbázis | 2023.12.09. | Az adatbázis kapcsolat, migráció működik, egy-két módosítást igényelnek a táblák | Működik | - |
 
 Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenféle fennakadások nélkül.
 Az Alfa tesztelés során a vizsgált elemek között volt ami nem megfelelően működött, ez a későbbiek során javításra szorul.
