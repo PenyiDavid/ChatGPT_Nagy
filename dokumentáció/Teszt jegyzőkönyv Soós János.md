@@ -36,13 +36,20 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 
 ## Végleges teszt
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
-| :---: | --- | --- | --- | --- |
-| ... | 2023.11.xx. | ... | ... | ... |
+| Adatbázis | 2023.12.13. | Adatbázis működés ellenőrzése | A táblák a küldött adatokat sikeresen rögzítik, adatvesztés nincs. | Nem tapasztaltam hibát. |
+| Regisztráció | 2023.12.13. | Regisztrálás a weboldalra | Fiók regisztrálása sikeres. | Nem tapasztaltam hibát. |
+| Belépés | 2023.12.13. | Bejelentkezés a weboldalra | Belépés a weboldalra sikeres. | Nem tapasztaltam hibát. |
+| Autentikáció | 2023.12.13. | Felhasználó adatainak ellenőrzése | Megfelelő jogokkal rendelkező felhasználók belépés után több funkciót érnek el. | Nem tapasztaltam hibát. |
+| Profil | 2023.12.13. | Felhasználó szerkesztheti saját adatait | Saját adatok módisítása működik. | Nem tapasztaltam hibát. |
+| Új termék | 2023.12.13. | Adminként új terméket lehet felvinni a táblába | Megfelelő jogosultsággal a felület megjelenik, a funkció működik. | Nem tapasztaltam hibát. |
+| Termékek listázása | 2023.12.13. | Az adatbázisban megtalálható termékek megjelennek a weboldalon | Bejelentkezett felhasználóként megtekinthetőek a termékek. | Nem tapasztaltam hibát. |
+| Szűrők | 2023.12.13. | A termékek oldalon lehet méret és ár szerint szűrni a termékek közt | A szűrők megfelelően működnek. | Nem tapasztaltam hibát. |
+| Admin funkciók | 2023.12.13. | Új termék, minden rendelés felületek nem érhetőek el sima felhasználóknak | Csak admin jogosultsággal működnek a funkciók
 
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
 Átadásra készen áll a megrendelőnek.
 
-Tesztelést végezte és írta: Vezetéknév Keresztnév
+Tesztelést végezte és írta: Soós János
 
-Befejezve: 2022.xx.xx.
+Befejezve: 2022.12.13.
