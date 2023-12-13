@@ -22,7 +22,12 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2023.11.xx. | ... | ... | ... |
+| Navigációs menü | 2023.12.13. | A menüsorban a gombok a megfelelő oldalra irányítanak | Működik | - |
+| Admin jogosultság | 2023.12.13. | Admin felhasználóknak több lehetősége van az oldalon. | Működik | - |
+| Új termék | 2023.12.13. | Az oldalon a megfelelő adatoka kitöltve fel lehet vinni az adatbázisba új cipőt. | Működik | - |
+| Termékek kilistázása | 2023.12.13. | Az oldalon felsorolásként megjelennek az adatbázisban található termékek | Működik | - |
+| Frontend | 2023.12.13. | A weboldal megjelenésének tesztelése | A weboldal design-ja elfogadható, átlátható. | Működik |
+| Backend | 2023.12.13. | A backendben megírt kódok megfelelő működése | A backend eddig megírt kódjai tökéletesen működtek, a termék kosárba helyezése, majd onnan a rendelések közé való felvétel megírásra szorul. | Működik |
 
 A Béta teszt sikeresen zajlott.
 A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
