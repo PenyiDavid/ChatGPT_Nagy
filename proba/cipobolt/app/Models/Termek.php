@@ -9,4 +9,10 @@ class Termek extends Model
 {
     use HasFactory;
     protected $table = "termekek";
+    protected $fillable = ['darabszam'];
+
+    public function rendeles()
+    {
+        return $this->hasOne(Rendeles::class);
+    }
 }

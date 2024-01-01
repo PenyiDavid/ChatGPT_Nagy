@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\KosarController;
 use App\Models\Rendeles;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TermekController;
@@ -47,6 +48,9 @@ Route::get('/termek/filter', [TermekController::class, 'filterProducts'])->name(
 Route::get('/termek/clear-filters', [TermekController::class, 'clearFilters'])->name('termek.clearFilters');
 
 Route::get('/termektorles', [TermekTorleseController::class, 'index'])->name('termektorles.index');
-Route::delete('/termek/torles/{termekId}', [TermekController    ::class, 'torles'])->name('termek.torles');
+Route::delete('/termek/torles/{termekId}', [TermekController::class, 'torles'])->name('termek.torles');
+
+Route::get('/termekvasar', [KosarController::class, 'index'])->name('kosar.index');
+Route::post('/termek/vasar/{termekId}', [TermekController::class, 'kosar'])->middleware(['auth', 'verified'])->name('termek.vasar');
 
 require __DIR__.'/auth.php';

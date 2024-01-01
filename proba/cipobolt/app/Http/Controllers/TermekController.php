@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\Termek;
+use App\Models\Rendeles;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class TermekController extends Controller
 {
     public function index(){
-        $termekek = Termek::all();
+        $termekek = Termek::where('darabszam', '>', 0)->get();
 
         return view("termekek", ['termekek' => $termekek]);
     }
@@ -16,6 +18,30 @@ class TermekController extends Controller
     public function torles($termekId)
     {
     Termek::find($termekId)->delete();
+
+    return redirect()->back()->with('success', 'A termék törölve!');
+    }
+
+    public function kosar($termekId)
+    {
+        $termek = Termek::find($termekId);
+        $termek->update(['darabszam' => $termek->darabszam - 1]);
+        
+        if (!$termek) {
+            return response()->json(['error' => 'A termék nem található'], 404);
+        }
+
+        $user = Auth::user();
+        if (!$user) {
+            return response()->json(['error' => 'A felhasználó nincs bejelentkezve'], 401);
+        }
+
+        $ujRendeles = new Rendeles([
+            'user_id' => $user->id,
+            'termek_id'=> $termek,
+        ]);
+
+        $termek->Rendeles()->save($ujRendeles);
 
     return redirect()->back()->with('success', 'A termék törölve!');
     }

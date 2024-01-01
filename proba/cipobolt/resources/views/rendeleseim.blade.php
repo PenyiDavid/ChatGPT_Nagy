@@ -13,10 +13,8 @@
                 </div>
                 <div>
                     @forelse($rendeleseim as $rendeles)
-                        <li><p>{{ $rendeles->id}}</p>
-                            <p>{{ $rendeles->termek_id }}</p>
-                            <p>{{ $rendeles->szallitasi_cim}}</p>
-                        <p>------------------------------------</p>
+                            <p>{{ $rendeles->termek->termek_neve }}</p>
+                            <p><img src="{{$rendeles->termek->eleresi_ut}}.jpg" alt="Kép" width="200"></p>
                         </li>
                     @empty
                     <p>Nincs korábbi rendelése.</p>

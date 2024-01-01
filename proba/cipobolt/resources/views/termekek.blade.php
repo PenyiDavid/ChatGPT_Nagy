@@ -46,21 +46,23 @@
                         <div class="flex justify-content-center align-items-center">
                             @foreach($chunk as $termek)
                                 <li class="mr-4">
-                                    <a href="{{ $termek->id}}.php">
-                                        <p>{{ $termek->termek_neve }}</p>
-                                        <p><img src="{{ $termek->eleresi_ut}}.jpg" alt="Kép" width="200"></p>
-                                        <p>{{ $termek->ar}}Ft</p>
-                                        <p>{{ $termek->meret }}-os méret</p>
-                                        <p>{{ $termek->darabszam}}db raktáron</p>
-                                        @if(Auth::check() && Auth::user()->admin)
-                                        <form action="{{ route('termek.torles', $termek->id) }}" method="post">
-                                            @csrf
-                                            @method('delete')
-                                            <button type="submit" class="filter-button">Törlés</button>
-                                        </form>
-                                        @endif
-                                        <p>------------------------------------</p>
-                                    </a>
+                                    <p>{{ $termek->termek_neve }}</p>
+                                    <p><img src="{{ $termek->eleresi_ut}}.jpg" alt="Kép" width="200"></p>
+                                    <p>{{ $termek->ar}}Ft</p>
+                                    <p>{{ $termek->meret }}-os méret</p>
+                                    <p>{{ $termek->darabszam}}db raktáron</p>
+                                    <form action="{{ route('termek.vasar', $termek->id) }}" method="post">
+                                        @csrf
+                                        @method('post')
+                                        <button type="submit" class="filter-button">Vásárlás</button>
+                                    </form>
+                                    @if(Auth::check() && Auth::user()->admin)
+                                    <form action="{{ route('termek.torles', $termek->id) }}" method="post">
+                                        @csrf
+                                        @method('delete')
+                                        <button type="submit" class="filter-button">Törlés</button>
+                                    </form>
+                                    @endif
                                 </li>
                             @endforeach
                         </div>
